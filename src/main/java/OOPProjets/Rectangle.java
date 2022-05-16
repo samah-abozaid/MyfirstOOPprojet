@@ -3,6 +3,11 @@ package OOPProjets;
 public class Rectangle {
     private double length;
     private double width;
+public  Rectangle(){
+     length=10;
+    width=15;
+    System.out.println("the new roam created lengthand width ");
+}
 
     public void setLength(double l) {
 
